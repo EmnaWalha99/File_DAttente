@@ -1,8 +1,8 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from File_d_attente.theory import compute_theoretical_distribution
-from File_d_attente.simulation import simulate_queue
-from File_d_attente.utils import plot_distributions
+from theory import compute_theoretical_distribution
+from simulation import simulate_queue
+from utils import plot_distributions
 
 st.set_page_config(page_title="Simulation File M/M/m", layout="wide")
 
